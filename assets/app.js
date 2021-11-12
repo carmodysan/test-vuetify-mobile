@@ -10,9 +10,11 @@ import vuetify from './plugins/vuetify'
 
 import App from './components/App'
 import Home from './components/Home'
+import MyCard from './components/MyCard'
 
 const routes = [
-    { path: '/home', component: Home, name: 'home' }
+    { path: '/home', component: Home, name: 'home' },
+    { path: '/card', component: MyCard, name: 'card' }
 ]
 
 const router = new VueRouter({
